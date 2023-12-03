@@ -10,17 +10,32 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    search:{
+    search: {
       provider: 'local'
     },
     logo: '/logo.png',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Web Site', link: '/web-site/0001' },
-      { text: 'v0.0.1-beta.1', link: 'https://github.com/LQYld/FFCDocs/releases' }
+      {text: 'Home', link: '/'},
+      {text: 'Web Site', link: '/web-site/declare-state'},
+      {text: 'v0.0.1-beta.1', link: 'https://github.com/LQYld/FFCDocs/releases'}
     ],
-    sidebar: [
-    ],
+    sidebar: {
+      '/web-site': [
+        {
+          text: 'Reactivity',
+          items: [
+            {
+              text: 'Declare state',
+              link: '/web-site/declare-state',
+            },
+            {
+              text: 'Update state',
+              link: '/web-site/update-state'
+            },
+          ]
+        }
+      ],
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/LQYld/FFCDocs' },
     ],
