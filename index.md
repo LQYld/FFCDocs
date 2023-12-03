@@ -31,7 +31,7 @@ features:
 import {
   VPTeamPage,
   VPTeamPageTitle,
-  VPTeamMembers
+  VPTeamMembers,
 } from 'vitepress/theme';
 import VPFeatures from 'vitepress/dist/client/theme-default/components/VPFeatures.vue';
 
