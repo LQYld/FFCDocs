@@ -32,6 +32,23 @@ export default defineConfig({
               text: 'Update state',
               link: '/web-site/update-state'
             },
+            {
+              text: 'Computed state',
+              link: '/web-site/computed-state'
+            }
+          ]
+        },
+        {
+          text: 'Templating',
+          items: [
+            {
+              text: 'Minimal template',
+              link: '/web-site/minimal-template'
+            },
+            {
+              text: 'Styling',
+              link: '/web-site/styling'
+            }
           ]
         }
       ],
