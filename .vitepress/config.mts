@@ -48,6 +48,14 @@ export default defineConfig({
             {
               text: 'Styling',
               link: '/web-site/styling'
+            },
+            {
+              text: 'Loop',
+              link: '/web-site/loop'
+            },
+            {
+              text: 'Event click',
+              link: '/web-site/event-click'
             }
           ]
         }
