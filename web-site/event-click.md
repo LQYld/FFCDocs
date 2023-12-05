@@ -39,7 +39,7 @@ import { ref } from "vue";
 const count = ref(0);
 
 function incrementCount() {
-count.value++;
+    count.value++;
 }
 </script>
 

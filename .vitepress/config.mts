@@ -56,6 +56,14 @@ export default defineConfig({
             {
               text: 'Event click',
               link: '/web-site/event-click'
+            },
+            {
+              text: 'Dom ref',
+              link: '/web-site/dom-ref'
+            },
+            {
+              text: 'Conditional',
+              link: '/web-site/conditional'
             }
           ]
         }
