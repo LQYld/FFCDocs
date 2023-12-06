@@ -86,6 +86,10 @@ export default defineConfig({
             {
               text: 'Props',
               link: '/web-site/props'
+            },
+            {
+              text: 'Emit to parent',
+              link: '/web-site/emit-to-parent.md'
             }
           ]
         }
