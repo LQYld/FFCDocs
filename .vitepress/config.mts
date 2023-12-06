@@ -64,6 +64,28 @@ export default defineConfig({
             {
               text: 'Conditional',
               link: '/web-site/conditional'
+            },
+          ]
+        },
+        {
+          text: 'Lifecycle',
+          items: [
+            {
+              text: 'On mount',
+              link: '/web-site/on-mount'
+            },
+            {
+              text: 'On unmount',
+              link: '/web-site/on-unmount'
+            }
+          ]
+        },
+        {
+          text: 'Component composition',
+          items: [
+            {
+              text: 'Props',
+              link: '/web-site/props'
             }
           ]
         }
