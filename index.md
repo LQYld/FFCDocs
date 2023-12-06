@@ -118,7 +118,196 @@ const web_site = [
     link: 'https://aurelia.io/',
     linkText: 'Go to Official Website',
   }
+];
+
+const ssr_site = [
+  {
+    icon: fw_logo_map.nuxt,
+    title: 'NuxtJs',
+    details: 'The Intuitive Vue Framework. Nuxt is an open source framework that makes web development intuitive and powerful. Create performant and production-grade full-stack web apps and websites with confidence',
+    link: 'https://nuxt.com/',
+    linkText: 'Go to Official Website',
+  },
+  {
+    icon: fw_logo_map.next,
+    title: 'NextJs',
+    details: `The React Framework for the Web. Used by some of the world's largest companies, Next.js enables you to create full-stack Web applications by extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds`,
+    link: 'https://nextjs.org/',
+    linkText: 'Go to Official Website',
+  },
+];
+
+const server_site  = [
+  {
+    icon: fw_logo_map.express,
+    title: 'Express',
+    details: 'Fast, unopinionated, minimalist web framework for Node.js',
+    link: 'https://expressjs.com/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.koa,
+    title: 'Koa',
+    details: 'next generation web framework for node.js',
+    link: 'https://koajs.com/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.fastify,
+    title: 'Fastify',
+    details: 'The Progressive JavaScript Framework',
+    link: 'https://fastify.dev/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.egg,
+    title: 'Egg',
+    details: 'Born to build better enterprise frameworks and apps with Node.js & Koa',
+    link: 'https://www.eggjs.org/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.nest,
+    title: 'NestJs',
+    details: 'The Progressive JavaScript Framework',
+    link: 'https://nestjs.com/',
+    linkText: 'Go to Official Website',
+  },
+];
+
+const atomicCss_site = [
+ {
+    icon: fw_logo_map.tailwindcss,
+    title: 'Tailwindcss',
+    details: 'Rapidly build modern websites without ever leaving your HTML',
+    link: 'https://tailwindcss.com/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.windicss,
+    title: 'WindiCSS',
+    details: 'Next generation utility-first CSS framework',
+    link: 'https://windicss.org/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.unocss,
+    title: 'UnoCss',
+    details: 'Instant On-demand Atomic CSS Engine',
+    link: 'https://unocss.dev/',
+    linkText: 'Go to Official Website',
+  },
+];
+
+const cSSPreprocsssor_site = [
+ {
+    icon: fw_logo_map.scss,
+    title: 'Sc/ass',
+    details: 'Sass is the most mature, stable, and powerful professional grade CSS extension language in the world',
+    link: 'https://sass-lang.com/',
+    linkText: 'Go to Official Website',
+  },{
+    icon: fw_logo_map.less,
+    title: 'Less',
+    details: `It's CSS, with just a little more`,
+    link: 'https://lesscss.org/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.stylus,
+    title: 'Stylus',
+    details: 'Expressive, dynamic, and robust CSS. An expressive, robust, feature-rich CSS language built for Node.js',
+    link: 'https://stylus-lang.com/',
+    linkText: 'Go to Official Website',
+  },
+];
+
+const frontendBuildTooling_site = [
+ {
+    icon: fw_logo_map.esbuild,
+    title: 'Esbuild',
+    details: 'An extremely fast bundler for the web',
+    link: 'https://esbuild.github.io/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.vite,
+    title: 'Vite',
+    details: 'Next Generation Frontend Tooling. Get ready for a development environment that can finally catch up with you',
+    link: 'https://vitejs.dev/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.webpack,
+    title: 'Webpack',
+    details: 'Get Started quickly in our Guides section, or dig into the Concepts section for more high-level information on the core notions behind webpack',
+    link: 'https://webpack.js.org/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.rollup,
+    title: 'Rollup',
+    details: 'The JavaScript module bundler. Compile small pieces of code into something larger and more complex',
+    link: 'https://rollupjs.org/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.turbopack,
+    title: 'Turbopack',
+    details: 'The Rust-powered successor to Webpack. Turbopack is an incremental bundler optimized for JavaScript and TypeScript, written in Rust',
+    link: 'https://turbo.build/pack',
+    linkText: 'Go to Official Website',
+  },
+];
+
+const packageManagers_site = [
+ {
+    icon: fw_logo_map.npm,
+    title: 'Npm',
+    details: 'Build amazing things',
+    link: 'https://www.npmjs.com/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.pnpm,
+    title: 'Pnpm',
+    details: 'Fast, disk space efficient package manager',
+    link: 'https://pnpm.io/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.yarn,
+    title: 'Yarn',
+    details: 'Safe, stable, reproducible projects',
+    link: 'https://yarnpkg.com/',
+    linkText: 'Go to Official Website',
+  },
+];
+
+const javaScriptRuntime_site = [
+ {
+    icon: fw_logo_map.node,
+    title: 'NodeJs',
+    details: 'Node.js® is an open-source, cross-platform JavaScript runtime environment',
+    link: 'https://nodejs.org/en',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.deno,
+    title: 'Deno',
+    details: 'Next-generation JavaScript runtime',
+    link: 'https://deno.com/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.bun,
+    title: 'Bun',
+    details: 'Bun is a fast JavaScript test runner & all-in-one toolkit',
+    link: 'https://bun.sh/',
+    linkText: 'Go to Official Website',
+  },
 ]
+
 </script>
   
   <VPTeamPageTitle>
@@ -130,7 +319,56 @@ const web_site = [
 
   <VPTeamPageTitle>
     <template #lead>
-      Meet The Contributors
+      Server Site <Badge type="warning">Under preparation</Badge>
+    </template>
+  </VPTeamPageTitle>
+  <VPFeatures :features="server_site"/>
+
+  <VPTeamPageTitle>
+    <template #lead>
+      Web SSR <Badge type="warning">Under preparation</Badge>
+    </template>
+  </VPTeamPageTitle>
+  <VPFeatures :features="ssr_site"/>
+
+  <VPTeamPageTitle>
+    <template #lead>
+      Atomic Css <Badge type="warning">Under preparation</Badge>
+    </template>
+  </VPTeamPageTitle>
+  <VPFeatures :features="atomicCss_site"/>
+
+  <VPTeamPageTitle>
+    <template #lead>
+      CSS Preprocsssor <Badge type="warning">Under preparation</Badge>
+    </template>
+  </VPTeamPageTitle>
+ <VPFeatures :features="cSSPreprocsssor_site"/>
+
+  <VPTeamPageTitle>
+    <template #lead>
+      Frontend Build Tooling <Badge type="warning">Under preparation</Badge>
+    </template>
+  </VPTeamPageTitle>
+ <VPFeatures :features="frontendBuildTooling_site"/>
+
+  <VPTeamPageTitle>
+    <template #lead>
+      Package managers <Badge type="warning">Under preparation</Badge>
+    </template>
+  </VPTeamPageTitle>
+ <VPFeatures :features="packageManagers_site"/>
+
+  <VPTeamPageTitle>
+    <template #lead>
+      JavaScript runtime <Badge type="warning">Under preparation</Badge>
+    </template>
+  </VPTeamPageTitle>
+ <VPFeatures :features="javaScriptRuntime_site"/>
+
+  <VPTeamPageTitle>
+    <template #lead>
+      Meet The Contributors <Badge type="warning">Under preparation</Badge>
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
