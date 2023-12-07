@@ -453,7 +453,7 @@ const superset_of_javascript = [
 
   <VPTeamPageTitle>
     <template #lead>
-      Meet The Contributors <Badge type="warning">Under preparation</Badge>
+      Meet The Contributors
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
