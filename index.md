@@ -306,8 +306,24 @@ const javaScriptRuntime_site = [
     link: 'https://bun.sh/',
     linkText: 'Go to Official Website',
   },
-]
+];
 
+const cross_platform_desktop_application_site = [
+ {
+    icon: fw_logo_map.electron,
+    title: 'Electron',
+    details: `Build cross-platform desktop apps with JavaScript, HTML, and CSS`,
+    link: 'https://www.electronjs.org/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.tauri,
+    title: 'Tauri',
+    details: `Build an optimized, secure, and frontend-independent application for multi-platform deployment`,
+    link: 'https://tauri.app/',
+    linkText: 'Go to Official Website',
+  },
+];
 </script>
   
   <VPTeamPageTitle>
@@ -330,6 +346,13 @@ const javaScriptRuntime_site = [
     </template>
   </VPTeamPageTitle>
   <VPFeatures :features="ssr_site"/>
+
+  <VPTeamPageTitle>
+    <template #lead>
+      Cross-platform desktop application <Badge type="warning">Cross-platform desktop application</Badge>
+    </template>
+  </VPTeamPageTitle>
+  <VPFeatures :features="cross_platform_desktop_application_site"/>
 
   <VPTeamPageTitle>
     <template #lead>
