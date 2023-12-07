@@ -338,3 +338,27 @@ export const superset_of_javascript = [
         linkText: 'Go to Official Website',
     },
 ]
+
+export const template_engine = [
+    {
+        icon: fw_logo_map.pug,
+        title: 'Pug',
+        details: `Pugjs is a powerful and expressive template language used to build HTML pages. It has a concise syntax and efficient performance, enabling developers to quickly create complex page layouts.`,
+        link: 'https://pugjs.org/api/getting-started.html',
+        linkText: 'Go to Official Website',
+    },
+    {
+        icon: fw_logo_map.ejs,
+        title: 'EJS',
+        details: `What is the "E" for? "Embedded?" Could be. How about "Effective," "Elegant," or just "Easy"? EJS is a simple templating language that lets you generate HTML markup with plain JavaScript. No religiousness about how to organize things. No reinvention of iteration and control-flow. It's just plain JavaScript`,
+        link: 'https://ejs.co/',
+        linkText: 'Go to Official Website',
+    },
+    {
+        icon: fw_logo_map.handlebars,
+        title: 'Handlebars',
+        details: `Handlebars provides the power necessary to let you build semantic templates effectively with no frustration`,
+        link: 'https://handlebarsjs.com/',
+        linkText: 'Go to Official Website',
+    },
+];

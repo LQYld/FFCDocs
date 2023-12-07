@@ -48,7 +48,8 @@ import {
     javaScriptRuntime_site,
     cross_platform_desktop_application_site,
     javaScript_testing_site,
-    superset_of_javascript
+    superset_of_javascript,
+    template_engine
 } from './common/home_site_config';
 
 </script>
@@ -122,6 +123,13 @@ import {
     </template>
   </VPTeamPageTitle>
  <VPFeatures :features="javaScriptRuntime_site"/>
+
+  <VPTeamPageTitle>
+    <template #lead>
+      Template engine <Badge type="warning">Under preparation</Badge>
+    </template>
+  </VPTeamPageTitle>
+ <VPFeatures :features="template_engine"/>
 
   <VPTeamPageTitle>
     <template #lead>
