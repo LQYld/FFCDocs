@@ -324,6 +324,54 @@ const cross_platform_desktop_application_site = [
     linkText: 'Go to Official Website',
   },
 ];
+
+const javaScript_testing_site = [
+    {
+    icon: fw_logo_map.mocha,
+    title: 'Mocha',
+    details: `Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser`,
+    link: 'https://mochajs.org/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.jasmine,
+    title: 'Jasmine',
+    details: `Jasmine is a framework for testing JavaScript code`,
+    link: 'https://jasmine.github.io/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.jest,
+    title: 'Jest',
+    details: `Jest is a delightful JavaScript Testing Framework with a focus on simplicity`,
+    link: 'https://jestjs.io/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.vitest,
+    title: 'Vitest',
+    details: `Next Generation Testing Framework A Vite-native testing framework. It's fast`,
+    link: 'https://vitest.dev/',
+    linkText: 'Go to Official Website',
+  },
+];
+
+const superset_of_javascript = [
+ {
+    icon: fw_logo_map.ts,
+    title: 'TypeScript',
+    details: `TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale`,
+    link: 'https://www.typescriptlang.org/',
+    linkText: 'Go to Official Website',
+  },
+ {
+    icon: fw_logo_map.coffeescript,
+    title: 'CoffeeScript',
+    details: `CoffeeScript is a little language that compiles into JavaScript. Underneath that awkward Java-esque patina, JavaScript has always had a gorgeous heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way`,
+    link: 'https://coffeescript.org/',
+    linkText: 'Go to Official Website',
+  },
+]
 </script>
   
   <VPTeamPageTitle>
@@ -370,6 +418,13 @@ const cross_platform_desktop_application_site = [
 
   <VPTeamPageTitle>
     <template #lead>
+      JavaScript Testing <Badge type="warning">Under preparation</Badge>
+    </template>
+  </VPTeamPageTitle>
+ <VPFeatures :features="javaScript_testing_site"/>
+
+  <VPTeamPageTitle>
+    <template #lead>
       Frontend Build Tooling <Badge type="warning">Under preparation</Badge>
     </template>
   </VPTeamPageTitle>
@@ -388,6 +443,13 @@ const cross_platform_desktop_application_site = [
     </template>
   </VPTeamPageTitle>
  <VPFeatures :features="javaScriptRuntime_site"/>
+
+  <VPTeamPageTitle>
+    <template #lead>
+      Superset of javascript <Badge type="warning">Under preparation</Badge>
+    </template>
+  </VPTeamPageTitle>
+ <VPFeatures :features="superset_of_javascript"/>
 
   <VPTeamPageTitle>
     <template #lead>
